@@ -9,6 +9,7 @@ function secureConfig(config){
         [modify]: "left",
         "age": "20"
     }
+    // return config[modify]; 
     return config;
 }
 
