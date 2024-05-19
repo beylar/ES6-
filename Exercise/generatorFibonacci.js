@@ -18,15 +18,19 @@ function * fibonacciGenerator(limit){
 
 }
 
-let fibonacci = fibonacciGenerator(10)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
-console.log(fibonacci.next().value)
+const fibonacci = fibonacciGenerator(10)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+// console.log(fibonacci.next().value)
+
+for(let i=0; i<10; i++){
+    console.log(fibonacci.next().value)
+}
 
