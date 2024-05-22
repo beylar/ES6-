@@ -1,6 +1,7 @@
 class Person {
     constructor(name) {
-        this.setName(name);
+        this.setName(name) 
+        //this.name = name;
     }
     getName() {
         return this.name;
@@ -14,7 +15,7 @@ class Person {
     }
 }
 
-let person = new Person('Jane Doe');
+let person = new Person(' Jane Doe ');
 console.log(person); // Jane Doe
 
 person.setName('Jane Smith');
