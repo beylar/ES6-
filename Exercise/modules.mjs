@@ -21,5 +21,6 @@ export class maths {
     division(){
         return this.num1 / this.num2;
     }
+ 
 }
 
