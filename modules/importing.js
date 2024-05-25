@@ -1,2 +1,2 @@
-import { greeting } from "./exporting.js";
-console.log(greeting("Chartine"))
+import  greet  from "./exporting.js";
+//console.log(greet("Chartine is back"))
