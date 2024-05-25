@@ -1,5 +1,5 @@
-export function greeting (name){
+export default function greet (name){
     return `Hello ${name}, welcome back`
 }
 
-console.log(greeting("charite"))
+console.log(greet("charite"))
