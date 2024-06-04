@@ -1,14 +1,26 @@
 // This is a closure function
+// comparing using array and object 
+// comparing using arrays only
 const deepEqualArrays = (arr1, arr2) => {
-    let arra1;
-    let arra2;
-    arra1 = JSON.stringify(...arr1);
-    arra2 = JSON.stringify(...arr2)
-    if(arra1 == arr2){
-        return true
-    }
-    else{
-        return false
+    for(let i = 0; i< arr1.length; i++){
+        for(let j= 0; j< arr2.length ; j++){
+            // for(let key in arr1){
+            //     for(let keys in arr2){
+            //         if(arr1[key] === arr2[keys]){
+            //             return true;
+            //         }
+            //         else if(arr1[key] !== arr2[keys]){
+            //             return false
+            //         }
+            //     }
+            // }
+            if(arr1[i] == arr2[j]){
+                return true;
+            }
+            else{
+
+            }
+        }
     }
 }
 
